@@ -29,6 +29,9 @@ After graduating, I plan to work as a data scientist or product/business analyst
 ## Critique by Design
 [Critique by Design](critique-by-design) — *coming soon*
 
+## Workshop
+Coming soon.
+
 ## Final project
 *A high-level description of my final project will go here.*
 
