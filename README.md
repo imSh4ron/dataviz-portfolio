@@ -7,9 +7,9 @@ This is my public portfolio for **Telling Stories with Data (94-870)** at Carneg
 - This repository: https://github.com/imSh4ron/dataviz-portfolio/
 
 # About me
-Hi! I'm Xiaorong (Sharon) Yu, an M.S. student in Information Systems Management (Business Intelligence & Data Analytics) at CMU's Heinz College. Before coming to CMU, I earned a B.A. in Mathematics and Economics from Washington University in St. Louis.
+Hi! I'm Sharon Yu, an M.S. student in Information Systems Management (Business Intelligence & Data Analytics) at CMU's Heinz College. Before coming to CMU, I studied Mathematics and Economics at Washington University in St. Louis.
 
-I've worked on data and strategy problems across a few different settings: building monthly competitive intelligence reports at RedNote (Xiaohongshu), analyzing user behavior data (cohort analysis, segmentation, retention) for a language-learning app at InnovaAI, and supporting pricing and go-to-market strategy at a B2B SaaS startup. Across all of these, I've found that the analysis is only half the job — the other half is helping people actually see and act on what the data says.
+I'm interested in using data to understand how people behave and make decisions, and I enjoy the moment when a messy dataset finally turns into a clear insight. I've found that the analysis is only half the job — the other half is helping people actually see and act on what the data says.
 
 # What I hope to learn
 In this course, I hope to:
@@ -40,6 +40,3 @@ After graduating, I plan to work as a data scientist or product/business analyst
 
 ## References
 _List any references you used here._
-
-## AI acknowledgements
-I used Claude (an AI assistant) to help set up this repository and draft the initial version of this page.
