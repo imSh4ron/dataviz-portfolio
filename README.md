@@ -27,7 +27,7 @@ After graduating, I plan to work as a data scientist or product/business analyst
 [Data viz examples](dataviz-examples) — *coming soon*
 
 ## Critique by Design
-[Critique by Design](critique-by-design) — *coming soon*
+**[Critique by Design: Which Animals Do Americans Think Are Wrong to Eat?](critique-by-design)** — my MakeoverMonday 2024 Week 7 redesign of a Statista chart, with critique, sketch, peer feedback, and a final Tableau visualization.
 
 ## Workshop
 Coming soon.
