@@ -1,4 +1,4 @@
-| [home page](https://imsh4ron.github.io/dataviz-portfolio/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [home page](https://imsh4ron.github.io/dataviz-portfolio/) | [data viz examples](dataviz-examples) | [critique by design](https://imsh4ron.github.io/dataviz-portfolio/critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
 # Sharon Yu's Data Visualization Portfolio
 This is my public portfolio for **Telling Stories with Data (94-870)** at Carnegie Mellon University.
@@ -27,7 +27,7 @@ After graduating, I plan to work as a data scientist or product/business analyst
 [Data viz examples](dataviz-examples) — *coming soon*
 
 ## Critique by Design
-**[Critique by Design: Which Animals Do Americans Think Are Wrong to Eat?](critique-by-design)** — my MakeoverMonday 2024 Week 7 redesign of a Statista chart, with critique, sketch, peer feedback, and a final Tableau visualization.
+**[Critique by Design: Which Animals Do Americans Think Are Wrong to Eat?](https://imsh4ron.github.io/dataviz-portfolio/critique-by-design)** — my MakeoverMonday 2024 Week 7 redesign of a Statista chart, with critique, sketch, peer feedback, and a final Tableau visualization.
 
 ## Workshop
 Coming soon.
