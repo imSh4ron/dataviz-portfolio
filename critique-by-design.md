@@ -76,7 +76,7 @@ Overall, I focused on readability, clearer comparisons, and visual hierarchy.
 
 ## 5. Peer Feedback and Iteration
 
-I showed my initial sketch to two classmates and took notes using a Design Kit feedback worksheet. (No names are shared here.)
+I showed my initial sketch to two classmates and took notes using a Design Kit feedback worksheet. 
 
 ### Participant 1
 
@@ -159,6 +159,6 @@ Overall, I tried to keep the original story while improving readability and maki
 
 ### AI Acknowledgment
 
-I used ChatGPT to help brainstorm design ideas, organize my critique, develop an initial Python wireframe, and draft parts of the written explanation. I used Claude to help organize and build the GitHub Pages assignment page. I created the final visualization in Tableau Public using the YouGov data.
+I used ChatGPT to help brainstorm design ideas, organize my critique, develop an initial Python graph wireframe. I created the final visualization in Tableau Public using the YouGov data.
 
 [← Back to portfolio home](https://imsh4ron.github.io/dataviz-portfolio/)
