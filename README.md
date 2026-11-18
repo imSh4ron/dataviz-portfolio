@@ -33,7 +33,7 @@ After graduating, I plan to work as a data scientist or product/business analyst
 Coming soon.
 
 ## Final project
-*A high-level description of my final project will go here.*
+**Is Your Data Job Offer a Good One?** A data story for international students that uses public H-1B salary records to show how pay depends on the company, the city and the role.
 
 - [Part I](final-project-part-one)
 - [Part II](final-project-part-two)
