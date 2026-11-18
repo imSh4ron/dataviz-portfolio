@@ -37,11 +37,13 @@ def load(paths):
     return pd.concat(frames, ignore_index=True)
 
 
-def role_of(title, soc):
+def role_of(title, soc=None):
+    # Roles are defined by job title only. The SOC code is not used, because many
+    # filings use the Data Scientist code (15-2051) for data engineer / ML jobs.
     t = str(title).lower()
     if "data analyst" in t or "business intelligence" in t or "bi analyst" in t:
         return "Data Analyst"
-    if "data scientist" in t or "data science" in t or str(soc).startswith("15-2051.00"):
+    if "data scientist" in t or "data science" in t:
         return "Data Scientist"
     return None
 
