@@ -110,6 +110,6 @@ U.S. Bureau of Economic Analysis. (2026). *Regional Price Parities by State and 
 Berinato, S. (2023). *Good charts: The HBR guide to making smarter, more persuasive data visualizations* (Updated and expanded ed.). Harvard Business Review Press.
 
 ## AI acknowledgements
-I used Claude (Anthropic) to find public data sources, write Python scripts for cleaning the DOL data and merging it with BEA data, and create the initial matplotlib sketches (Sketches 1, 3, 4, and 5) based on my ideas. I also used ChatGPT (OpenAI) to review my draft and suggest improvements to the role definitions and explanations of salary comparisons and regional price differences. Additionally, I used Grammarly to improve the grammar and clarity of my writing.
+I used Claude (Anthropic) to help find public data sources, assist with writing Python scripts to clean the DOL data and merge it with BEA data, and create initial matplotlib sketches (Sketches 1, 3, and 4) based on my ideas. I also used ChatGPT (OpenAI) to review my draft and suggest improvements to the role definitions and explanations of salary comparisons and regional price differences. Additionally, I used Grammarly to improve the grammar and clarity of my writing.
 
-I independently selected the topic and story direction, downloaded the data, created Sketch 2 in Tableau, and reviewed the data and visualizations for accuracy.
+I independently selected the topic, developed the story direction and visualization ideas, downloaded the data, created Sketch 2 in Tableau, and reviewed the data and visualizations for accuracy.
