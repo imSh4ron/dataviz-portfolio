@@ -21,7 +21,7 @@ The final story will be one scrolling page in Shorthand. The storyboard below sh
 <td width="33%" valign="top"><b>3. Where (conflict)</b><br><img src="fp1/images/sketch3_cities.png" alt="Where"><br><small>Some expensive metros pay off, others don't</small></td>
 </tr>
 <tr>
-<td valign="top"><b>4. What role (conflict)</b><br><img src="fp1/images/sketch4_roles.png" alt="What role"><br><small>Job title changes pay: $104K vs. $142K</small></td>
+<td valign="top"><b>4. What role (conflict)</b><br><img src="https://public.tableau.com/static/images/fi/finalproject_roles/Roles/1.png" alt="What role"><br><small>Job title changes pay: $104K vs. $142K</small></td>
 <td valign="top"><b>5. Your offer (resolution)</b><br><img src="fp1/images/sketch5_interactive.png" alt="Your offer"><br><small>Interactive: compare your offer with similar filings</small></td>
 <td valign="top"><b>6. Takeaway (resolution)</b><br><br>1. Compare offers within the same city<br>2. Check the job title, not just the field<br>3. Bring data into salary talks<br><br><small>Short close, plus data notes and limits</small></td>
 </tr>
@@ -62,11 +62,21 @@ Each bubble is a metro area with 90+ filings. The x-axis is the BEA Regional Pri
 
 ![Salary vs regional price level](fp1/images/sketch3_cities.png)
 
-### Section 4: What role
+### Section 4: What role (built in Tableau Public)
 
-Data Analyst median is $104K and Data Scientist median is $142K. The box shows the middle 50% of salaries. Roles are grouped by job title only (see [Part I](final-project-part-one) for the exact rules).
+Data Analyst median is $104K and Data Scientist median is $142K. The box shows the middle 50% of salaries. Roles are grouped by job title only (see [Part I](final-project-part-one) for the exact rules). Each dot is one filing, so readers can also see the long tail of high salaries.
 
-![Analyst vs scientist](fp1/images/sketch4_roles.png)
+[Open in Tableau Public](https://public.tableau.com/views/finalproject_roles/Roles)
+
+<div class='tableauPlaceholder' id='viz1795579094444' style='position: relative'><noscript><a href='#'><img alt='Same Field, Different Pay' src='https://public.tableau.com/static/images/fi/finalproject_roles/Roles/1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /><param name='embed_code_version' value='3' /><param name='site_root' value='' /><param name='name' value='finalproject_roles&#47;Roles' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https://public.tableau.com/static/images/fi/finalproject_roles/Roles/1.png' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+<script type='text/javascript'>
+var divElement = document.getElementById('viz1795579094444');
+var vizElement = divElement.getElementsByTagName('object')[0];
+vizElement.style.width='100%'; vizElement.style.height=(divElement.offsetWidth*0.6)+'px';
+var scriptElement = document.createElement('script');
+scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
 
 ### Section 5: Your offer (design draft for the interactive tool)
 
@@ -75,7 +85,7 @@ This is a mockup of the Tableau dashboard I will build for Part III. The reader 
 ![Check your offer](fp1/images/sketch5_interactive.png)
 
 ### Next steps for the draft
-- Rebuild Sections 3 to 5 in Tableau Public (Section 2 is already done)
+- Rebuild Sections 3 and 5 in Tableau Public (Sections 2 and 4 are already done)
 - Build the Shorthand page and embed the Tableau charts in order
 - Write the short text that connects each section
 
@@ -137,4 +147,4 @@ Participant A also asked how many filings are behind each comparison. The salary
 | Different participants had different priorities | If time allows, compare salary patterns across employer types (tech, finance, consulting / IT services) |
 
 # AI acknowledgements
-I used Claude (Anthropic) to help build the storyboard layout, make the matplotlib draft charts for Sections 3 to 5 from my cleaned data, and organize my interview notes into the findings and change tables. I built the Section 2 chart in Tableau myself, chose the final interview questions, and conducted the interviews myself.
+I used Claude (Anthropic) to help build the storyboard layout, make the matplotlib draft charts for Sections 3 and 5 from my cleaned data, and organize my interview notes into the findings and change tables. I built the Section 2 and Section 4 charts in Tableau myself, chose the final interview questions, and conducted the interviews myself.
