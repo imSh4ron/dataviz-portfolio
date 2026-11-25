@@ -62,9 +62,19 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);
 
 ![Salary vs cost of living](fp1/images/sketch3_cities.png)
 
-**Sketch 4: What role.** Data Analyst median is $104K, Data Scientist is $142K. The box is the middle 50% of salaries. Roles are grouped by job title (see the data section for the exact rules).
+**Sketch 4: What role.** Data Analyst median is $104K, Data Scientist is $142K. The box is the middle 50% of salaries. Roles are grouped by job title (see the data section for the exact rules). This sketch is now built in Tableau Public.
 
-![Analyst vs scientist](fp1/images/sketch4_roles.png)
+[Open in Tableau Public](https://public.tableau.com/views/finalproject_roles/Roles)
+
+<div class='tableauPlaceholder' id='viz1795579094445' style='position: relative'><noscript><a href='#'><img alt='Same Field, Different Pay' src='https://public.tableau.com/static/images/fi/finalproject_roles/Roles/1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /><param name='embed_code_version' value='3' /><param name='site_root' value='' /><param name='name' value='finalproject_roles&#47;Roles' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https://public.tableau.com/static/images/fi/finalproject_roles/Roles/1.png' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+<script type='text/javascript'>
+var divElement = document.getElementById('viz1795579094445');
+var vizElement = divElement.getElementsByTagName('object')[0];
+vizElement.style.width='100%'; vizElement.style.height=(divElement.offsetWidth*0.6)+'px';
+var scriptElement = document.createElement('script');
+scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
 
 **Sketch 5: Check your offer.** Readers choose a city and role and type a salary. Example: a $95K data analyst offer in Pittsburgh is higher than 63% of the 35 matching filings. The tool will always show the sample size, with a note like: "Based on 35 matching LCA filings. This does not account for experience, seniority, bonus or stock." Groups with very few filings will get a warning.
 
@@ -110,6 +120,6 @@ U.S. Bureau of Economic Analysis. (2026). *Regional Price Parities by State and 
 Berinato, S. (2023). *Good charts: The HBR guide to making smarter, more persuasive data visualizations* (Updated and expanded ed.). Harvard Business Review Press.
 
 ## AI acknowledgements
-I used Claude (Anthropic) to help find public data sources, assist with writing Python scripts to clean the DOL data and merge it with BEA data, and create initial matplotlib sketches (Sketches 1, 3, and 4) based on my ideas. I also used ChatGPT (OpenAI) to review my draft and suggest improvements to the role definitions and explanations of salary comparisons and regional price differences. Additionally, I used Grammarly to improve the grammar and clarity of my writing.
+I used Claude (Anthropic) to help find public data sources, assist with writing Python scripts to clean the DOL data and merge it with BEA data, and create initial matplotlib sketches (Sketches 1, 3 and 5, and the first draft of Sketch 4, which I later rebuilt in Tableau myself) based on my ideas. I also used ChatGPT (OpenAI) to review my draft and suggest improvements to the role definitions and explanations of salary comparisons and regional price differences. Additionally, I used Grammarly to improve the grammar and clarity of my writing.
 
 I independently selected the topic, developed the story direction and visualization ideas, downloaded the data, created Sketch 2 in Tableau, and reviewed the data and visualizations for accuracy.
