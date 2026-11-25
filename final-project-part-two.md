@@ -87,11 +87,13 @@ I wanted to find out whether students could easily follow my story, understand t
 
 ## Target audience and approach
 
-My target audience is international graduate students interested in data-related jobs. I interviewed three people with different levels of experience and asked them to review my storyboard and draft visualizations. To protect their privacy, I describe them only in general terms.
+My target audience is international graduate students interested in data-related jobs. I interviewed five people with different levels of experience and asked them to review my storyboard and draft visualizations. To protect their privacy, I describe them only in general terms.
 
 - **Participant A:** International graduate student currently looking for data jobs
 - **Participant B:** Graduate student with a background in data analytics
 - **Participant C:** Recent graduate working in a data-related role
+- **Participant D:** International graduate student
+- **Participant E:** Graduate student looking for jobs
 
 Each interview took around 10 to 15 minutes. I showed participants the draft story, asked them to talk through anything they found confusing, and took notes on their feedback.
 
@@ -113,8 +115,14 @@ Each interview took around 10 to 15 minutes. I showed participants the draft sto
 | **A: International grad student looking for jobs** | "The salary checker sounds really useful, but I'd want to know how many other offers it's comparing mine to." | Show the sample size for each comparison. |
 | **B: Grad student with data analytics experience** | "I like the company chart, but I wasn't sure whether those numbers were actual hires or just applications." | Add a clearer note explaining what LCA filings mean. |
 | **C: Recent grad working in data** | "I'd definitely want to see the salary range. And honestly, benefits and 401(k) matching matter too, not just salary." | Add salary ranges and a note about total compensation. |
+| **D: International grad student** | "The salary checker is useful, but I'd also want to see the salary range, not just the percentile." | Add salary ranges to the salary checker. |
+| **E: Grad student looking for jobs** | "I wasn't sure if the company numbers meant actual hires or just applications." | Explain that LCA filings don't necessarily mean actual hires. |
 
-**Similarities:** All three participants wanted more information behind the numbers. Participants A and B both pointed to things that were not clear enough: how many filings are behind a comparison, and whether filings mean actual hires. Participant C wanted more than one number too, asking for the salary range. Participant A called the salary checker "really useful," and Participant B liked the company chart.
+**Similarities:** All five participants wanted more information behind the numbers. Two issues came up more than once:
+- **Filings vs. hires (2 of 5, B and E):** both were not sure whether the company numbers meant actual hires or just applications.
+- **Salary range (2 of 5, C and D):** both wanted to see a salary range, not just a percentile.
+
+Participant A also asked how many filings are behind each comparison. The salary checker got the most positive comments: Participant A called it "really useful" and Participant D called it "useful." Participant B liked the company chart.
 
 **Differences:** The participants had different priorities. Participant A, who is job searching now, focused on comparing an offer with others. Participant C, who already works in data, cared more about the full package, including salary range, benefits and 401(k) matching, not just base salary.
 
@@ -123,8 +131,8 @@ Each interview took around 10 to 15 minutes. I showed participants the draft sto
 | Research synthesis | Anticipated changes for Part III |
 |--------------------|----------------------------------|
 | Participant A wanted to know how many offers the salary checker compares against | Show the number of LCA filings used in every salary comparison, and add a warning when the sample is small |
-| Participant B was not sure whether filing counts meant actual hires | Add a clear note next to the company chart: filing counts are applications, not confirmed hires |
-| Participant C wanted to see the salary range, not just a percentile | Show the salary range (for example, the 25th to 75th percentile) next to the percentile in the salary checker |
+| Participants B and E were not sure whether filing counts meant actual hires | Add a clear note next to the company chart: filing counts are applications, not confirmed hires |
+| Participants C and D wanted to see the salary range, not just a percentile | Show the salary range (for example, the 25th to 75th percentile) next to the percentile in the salary checker |
 | Participant C said benefits and 401(k) matching also matter | Add a short section noting that LCA data shows base salary only, and remind readers to compare total compensation |
 | Different participants had different priorities | If time allows, compare salary patterns across employer types (tech, finance, consulting / IT services) |
 
