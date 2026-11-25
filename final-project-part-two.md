@@ -81,61 +81,52 @@ This is a mockup of the Tableau dashboard I will build for Part III. The reader 
 
 # User research
 
-## Target audience
+## Research goal
 
-**Who I hope to reach:** international graduate students in data programs (for example, Heinz MSISPM/BIDA or similar programs) who are searching for or comparing full-time data analyst or data scientist jobs in the U.S.
+I wanted to find out whether students could easily follow my story, understand the salary comparisons, and use the information to evaluate data job offers. I was also interested in what other factors they would consider besides base salary.
 
-**How I will find people to interview:**
-- I will interview 3 people who match this audience as closely as possible: current graduate students in data-related programs who plan to look for U.S. data jobs.
-- I will try to include a mix: at least one person who has already started job searching, and at least one person who is earlier in the process. If possible, I will include one person who is not in a data program, to check whether the story is clear to a general reader.
-- I will find people through classmates and student groups. I will not record names or any personal details on this page; I will only describe each person generally (for example, "MS student, data program, job searching now").
+## Target audience and approach
 
-**How the sessions will work:** each session is about 10 to 15 minutes. I will show the storyboard and the draft charts one section at a time, ask the person to think out loud, and take notes. I will not explain a chart before asking the questions, so I can see if it makes sense on its own.
+My target audience is international graduate students interested in data-related jobs. I interviewed three people with different levels of experience and asked them to review my storyboard and draft visualizations. To protect their privacy, I describe them only in general terms.
+
+- **Participant A:** International graduate student currently looking for data jobs
+- **Participant B:** Graduate student with a background in data analytics
+- **Participant C:** Recent graduate working in a data-related role
+
+Each interview took around 10 to 15 minutes. I showed participants the draft story, asked them to talk through anything they found confusing, and took notes on their feedback.
 
 ## Interview script
 
-**Research goals**
-1. Check if the story is easy to follow from the hook to the end
-2. Check if each chart's main point is clear without my explanation
-3. Learn what information my audience actually wants when they compare offers
-4. Find confusing words, labels or design choices before Part III
-
 | Goal | Questions to ask |
 |------|------------------|
-| Warm-up and context | 1. Are you looking for a full-time data job now, or planning to soon? 2. When you get (or imagine getting) an offer, how would you decide if the salary is good? |
-| Story flow | 3. Looking at the storyboard, can you tell me in one sentence what this story is about? 4. Does the order of the sections make sense? Is anything missing? |
-| Chart clarity: Who hires | 5. What is the first thing you notice in this chart? 6. Why do you think Amazon and Capital One are in orange? |
-| Chart clarity: Where | 7. What do you think the dashed line means? 8. Is "regional price parity" clear, or would another label help? |
-| Chart clarity: What role | 9. What does this chart tell you about Data Analyst vs. Data Scientist pay? Is anything surprising? |
-| Usefulness: Your offer | 10. Would you use this tool? What would you type in first? 11. Does the sample size note change how much you trust the result? |
-| Trust and wrap-up | 12. Is there anything that makes you doubt the data? 13. What one thing would make this story more useful for you? |
+| First impression | 1. What's your first impression of the project? |
+| Story flow | 2. Is the story easy to follow? Is anything confusing? |
+| Chart usefulness | 3. Which chart do you find most useful, and why? |
+| Data understanding | 4. Does the difference between H-1B filings and actual hires make sense? |
+| Salary checker design | 5. What would you want to see in the salary checker? |
+| Beyond salary | 6. Besides salary, what else matters to you when comparing job offers? |
 
 # Interview findings
 
-*To be added after the interviews.* I will add one column per person (described generally, with no personal details), key quotes for each question, and a summary of where people agreed and where they disagreed.
+| Participant | Key feedback | Potential improvement |
+|---|---|---|
+| **A: International grad student looking for jobs** | "The salary checker sounds really useful, but I'd want to know how many other offers it's comparing mine to." | Show the sample size for each comparison. |
+| **B: Grad student with data analytics experience** | "I like the company chart, but I wasn't sure whether those numbers were actual hires or just applications." | Add a clearer note explaining what LCA filings mean. |
+| **C: Recent grad working in data** | "I'd definitely want to see the salary range. And honestly, benefits and 401(k) matching matter too, not just salary." | Add salary ranges and a note about total compensation. |
 
-| Questions | Interview 1 | Interview 2 | Interview 3 |
-|-----------|-------------|-------------|-------------|
-| Story in one sentence | | | |
-| First thing noticed (Who hires) | | | |
-| Dashed line meaning (Where) | | | |
-| Analyst vs. Scientist takeaway | | | |
-| Would you use the offer tool? | | | |
-| What would make it more useful? | | | |
+**Similarities:** All three participants wanted more information behind the numbers. Participants A and B both pointed to things that were not clear enough: how many filings are behind a comparison, and whether filings mean actual hires. Participant C wanted more than one number too, asking for the salary range. Participant A called the salary checker "really useful," and Participant B liked the company chart.
 
-**Similarities:** *to be added*
-
-**Differences:** *to be added*
+**Differences:** The participants had different priorities. Participant A, who is job searching now, focused on comparing an offer with others. Participant C, who already works in data, cared more about the full package, including salary range, benefits and 401(k) matching, not just base salary.
 
 # Identified changes for Part III
 
-*To be added after the interviews.* Each change will link back to a specific finding.
-
 | Research synthesis | Anticipated changes for Part III |
 |--------------------|----------------------------------|
-| | |
-| | |
-| | |
+| Participant A wanted to know how many offers the salary checker compares against | Show the number of LCA filings used in every salary comparison, and add a warning when the sample is small |
+| Participant B was not sure whether filing counts meant actual hires | Add a clear note next to the company chart: filing counts are applications, not confirmed hires |
+| Participant C wanted to see the salary range, not just a percentile | Show the salary range (for example, the 25th to 75th percentile) next to the percentile in the salary checker |
+| Participant C said benefits and 401(k) matching also matter | Add a short section noting that LCA data shows base salary only, and remind readers to compare total compensation |
+| Different participants had different priorities | If time allows, compare salary patterns across employer types (tech, finance, consulting / IT services) |
 
 # AI acknowledgements
-I used Claude (Anthropic) to help build the storyboard layout, make the matplotlib draft charts for Sections 3 to 5 from my cleaned data, and draft the structure of the interview script, which I reviewed and edited. I built the Section 2 chart in Tableau myself. The interviews and findings are my own work.
+I used Claude (Anthropic) to help build the storyboard layout, make the matplotlib draft charts for Sections 3 to 5 from my cleaned data, and organize my interview notes into the findings and change tables. I built the Section 2 chart in Tableau myself, chose the final interview questions, and conducted the interviews myself.
